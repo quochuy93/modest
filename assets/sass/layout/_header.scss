@@ -72,3 +72,36 @@
         }
     }
 }
+
+@media screen and (max-width: 46.1875em) {
+    .slider {
+        width: 100%;
+        display: block;
+        .carousel-inner .carousel-item img {
+            height: 40rem;
+        }
+        .carousel-caption {
+            padding-bottom: 8rem;
+            h5 {
+                font-size: 2rem;
+                line-height: 2rem;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 1.1rem;
+                line-height: 2rem;
+                padding: 2rem 0;
+                padding-right: 20rem;
+            }
+
+            .banner-button-left {
+                padding: 0.3rem 1rem;
+            }
+
+            .banner-button-right {
+                padding: 0.3rem 1rem;
+            }
+        }
+    }
+}

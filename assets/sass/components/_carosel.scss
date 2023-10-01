@@ -23,7 +23,20 @@
         .carousel-indicators {
             position: absolute;
             right: 20rem;
+        }
+    }
+}
 
+@media screen and (max-width: 46.1875em) {
+    #slider {
+        position: relative;
+        .carousel-indicators button {
+            width: 10px;
+            height: 10px;
+        }
+        .carousel-indicators {
+            position: absolute;
+            right: 10rem;
         }
     }
 }

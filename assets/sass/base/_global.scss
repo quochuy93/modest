@@ -36,6 +36,22 @@ body {
     }
 }
 
+@media screen and (max-width: 46.1875em) {
+    .title1 {
+        gap: 0.5rem;
+        .symbol {
+            width: 0.7rem;
+            height: 2.2rem;
+        }
+    
+        h2 {
+            font-size: 2rem;
+            line-height: 2rem;
+
+        }
+    }
+}
+
 .line {
     background-color: #e4e4e4;
     height: 0.5px;
