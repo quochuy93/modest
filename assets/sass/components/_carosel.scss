@@ -1,8 +1,8 @@
 #slider {
     position: relative;
     .carousel-indicators button {
-        width: 20px;
-        height: 20px;
+        width: 10px;
+        height: 10px;
         border-radius: 50%;
     }
     .carousel-indicators {
@@ -16,10 +16,6 @@
 @media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     #slider {
         position: relative;
-        .carousel-indicators button {
-            width: 15px;
-            height: 15px;
-        }
         .carousel-indicators {
             position: absolute;
             right: 20rem;
@@ -30,10 +26,6 @@
 @media screen and (max-width: 46.1875em) {
     #slider {
         position: relative;
-        .carousel-indicators button {
-            width: 10px;
-            height: 10px;
-        }
         .carousel-indicators {
             position: absolute;
             right: 10rem;

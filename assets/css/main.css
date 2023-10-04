@@ -305,8 +305,8 @@ body {
   position: relative;
 }
 #slider .carousel-indicators button {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
 }
 #slider .carousel-indicators {
@@ -321,10 +321,6 @@ body {
   #slider {
     position: relative;
   }
-  #slider .carousel-indicators button {
-    width: 15px;
-    height: 15px;
-  }
   #slider .carousel-indicators {
     position: absolute;
     right: 20rem;
@@ -333,10 +329,6 @@ body {
 @media screen and (max-width: 46.1875em) {
   #slider {
     position: relative;
-  }
-  #slider .carousel-indicators button {
-    width: 10px;
-    height: 10px;
   }
   #slider .carousel-indicators {
     position: absolute;
@@ -433,12 +425,13 @@ body {
 }
 .body .team-main-detail {
   position: relative;
+  width: 21rem;
 }
 .body .team-main-detail .icon {
   opacity: 0;
   position: absolute;
   top: 10rem;
-  left: 5rem;
+  left: 3.7rem;
   margin-top: 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -469,6 +462,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: inherit;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   line-height: 1.4rem;
 }
 .body .team-main-detail .word .name {
@@ -506,6 +503,12 @@ body {
 .body .work-image-detail {
   position: relative;
 }
+.body .work-image-detail .cross {
+  opacity: 0;
+  position: relative;
+  top: 9rem;
+  left: 12rem;
+}
 .body .work-image-detail .word {
   display: none;
   position: absolute;
@@ -522,6 +525,9 @@ body {
 }
 .body .work-image-detail:hover .word {
   display: block;
+}
+.body .work-image-detail:hover .cross {
+  opacity: 90%;
 }
 .body .work-more {
   border: 2px solid white;
@@ -601,7 +607,7 @@ body {
   padding: 0;
 }
 .body .stay-main {
-  padding: 4rem 80rem 4rem 22.5rem;
+  padding: 4rem 50rem 4rem 22.5rem;
 }
 .body .stay-main h3 {
   text-transform: uppercase;
@@ -618,8 +624,8 @@ body {
   position: absolute;
   padding: 2rem;
   background-color: white;
-  top: 23rem;
-  right: 27rem;
+  top: 20rem;
+  left: 60rem;
 }
 .body .stay .message .first {
   display: -webkit-box;
@@ -654,6 +660,7 @@ body {
   background-color: #e4e4e4;
   border: none;
   border-radius: 5px;
+  resize: none;
 }
 .body .stay .message .send {
   padding: 1rem 2.5rem;
@@ -697,16 +704,13 @@ body {
     gap: 3.5rem 2rem;
   }
   .body .team-main-detail {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
     position: relative;
   }
   .body .team-main-detail .icon {
     opacity: 0;
     position: absolute;
     top: 10rem;
-    left: 5rem;
+    left: 3.7rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -722,6 +726,13 @@ body {
   }
   .body .work {
     padding: 2rem 10.5rem;
+  }
+  .body .work-image-detail .cross {
+    top: 9rem;
+    left: 11rem;
+  }
+  .body .work-image-detail .word {
+    font-size: 1.2rem;
   }
   .body .do {
     padding: 2rem 10.5rem;
@@ -817,16 +828,13 @@ body {
     gap: 3.5rem 2rem;
   }
   .body .team-main-detail {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
     position: relative;
   }
   .body .team-main-detail .icon {
     opacity: 0;
     position: absolute;
     top: 10rem;
-    left: 5rem;
+    left: 3.7rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
