@@ -135,11 +135,12 @@
             color: white;
         }
         &-image {
-            padding: 4rem 0;
+            margin: 4rem 0;
             display: grid;
             grid-template-rows: repeat(2, 1fr);
             grid-template-columns: repeat(3, 1fr);
             gap: 2.5rem;
+            
             &-detail {
                 position: relative;
                 .cross {
@@ -152,11 +153,12 @@
                     display: none;
                     position: absolute;
                     bottom: 0;
-                    padding: 1rem 2rem;
+                    padding: 0.25rem 1rem;
                     background-color: #292828;
                     text-transform: uppercase;
                     color: white;
                     width: 100%;
+                    font-size: 90%;
                 }
                 &:hover {
                     cursor: pointer;
